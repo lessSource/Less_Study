@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "135173E48E65FF52C1FB32F1027B21DAB42D2C23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "447576a2-f341-4371-b108-4e3d28df04ac++362" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "447576a2-f341-4371-b108-4e3d28df04ac++362" : 9223372036854775807,
+    "135173E48E65FF52C1FB32F1027B21DAB42D2C23" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C87C71A-C226-48D1-A515-1FA2512926E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "447576a2-f341-4371-b108-4e3d28df04ac++362" : "less_Study\/Less_Study\/Less_Study\/libs\/SBJson\/",
+    "135173E48E65FF52C1FB32F1027B21DAB42D2C23" : "less_Study\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Less_Study",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Less_Study\/Less_Study.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lessSource\/less_Study.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "135173E48E65FF52C1FB32F1027B21DAB42D2C23"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.12\/sg",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "447576a2-f341-4371-b108-4e3d28df04ac++362"
+    }
+  ]
+}
