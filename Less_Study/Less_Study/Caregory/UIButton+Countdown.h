@@ -25,4 +25,7 @@
       countDownTitle:(NSString *)subTitle
            mainColor:(UIColor *)mColor
           countColor:(UIColor *)color;
+
+
+
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "UserViewController.h"
+#import "UIView+Error.h"
+#import "UIButton+Countdown.h"
 
 @interface UserViewController ()
 
@@ -21,9 +23,13 @@
 }
 
 - (void)initView {
+//    self.showError = YES;
     self.navigationItem.title = @"我的";
     self.view.backgroundColor = [UIColor purpleColor];
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -34,6 +34,7 @@
 }
 
 - (void)tableViewRefresh:(BOOL)refresh PageCount:(NSInteger)pageCount {
+    [self testRequset];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -51,7 +52,10 @@
     return cell;
 }
 
+- (void)testRequset {
 
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

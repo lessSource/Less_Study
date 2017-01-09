@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6AF6BB1DF05C440051B1CC /* UIView+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AF6BA1DF05C440051B1CC /* UIView+Error.m */; };
+		2AC5F84F1E0CFB6B006BDB43 /* NTHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5F84E1E0CFB6B006BDB43 /* NTHttpRequest.m */; };
 		2AE9494D1DEDB109007B7396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9494C1DEDB109007B7396 /* main.m */; };
 		2AE949501DEDB109007B7396 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9494F1DEDB109007B7396 /* AppDelegate.m */; };
 		2AE949561DEDB109007B7396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE949541DEDB109007B7396 /* Main.storyboard */; };
@@ -100,6 +102,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6AF6B91DF05C440051B1CC /* UIView+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Error.h"; sourceTree = "<group>"; };
+		2A6AF6BA1DF05C440051B1CC /* UIView+Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Error.m"; sourceTree = "<group>"; };
+		2AC5F84D1E0CFB6B006BDB43 /* NTHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHttpRequest.h; sourceTree = "<group>"; };
+		2AC5F84E1E0CFB6B006BDB43 /* NTHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHttpRequest.m; sourceTree = "<group>"; };
 		2AE949481DEDB109007B7396 /* Less_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Less_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE9494C1DEDB109007B7396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE9494E1DEDB109007B7396 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -283,6 +289,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AC5F84C1E0CFB3F006BDB43 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5F84D1E0CFB6B006BDB43 /* NTHttpRequest.h */,
+				2AC5F84E1E0CFB6B006BDB43 /* NTHttpRequest.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2AE9493F1DEDB109007B7396 = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +321,7 @@
 		2AE9494A1DEDB109007B7396 /* Less_Study */ = {
 			isa = PBXGroup;
 			children = (
+				2AC5F84C1E0CFB3F006BDB43 /* Services */,
 				2AE949821DEDB1ED007B7396 /* Base */,
 				2AE9498B1DEDB1ED007B7396 /* Caregory */,
 				2AE949941DEDB1ED007B7396 /* Controllers */,
@@ -377,6 +393,8 @@
 				2AE949911DEDB1ED007B7396 /* UIColor+ext.m */,
 				2AE949921DEDB1ED007B7396 /* UIViewController+Error.h */,
 				2AE949931DEDB1ED007B7396 /* UIViewController+Error.m */,
+				2A6AF6B91DF05C440051B1CC /* UIView+Error.h */,
+				2A6AF6BA1DF05C440051B1CC /* UIView+Error.m */,
 			);
 			path = Caregory;
 			sourceTree = "<group>";
@@ -804,6 +822,7 @@
 				2AE94A241DEDB1ED007B7396 /* UIScrollView+MJRefresh.m in Sources */,
 				2AE949501DEDB109007B7396 /* AppDelegate.m in Sources */,
 				2AE94A071DEDB1ED007B7396 /* UIColor+ext.m in Sources */,
+				2A6AF6BB1DF05C440051B1CC /* UIView+Error.m in Sources */,
 				2AE94A121DEDB1ED007B7396 /* MJRefreshAutoFooter.m in Sources */,
 				2AE94A111DEDB1ED007B7396 /* AFURLSessionManager.m in Sources */,
 				2AE94A831DEDBE84007B7396 /* SBJsonStreamWriterAccumulator.m in Sources */,
@@ -827,6 +846,7 @@
 				2AE94A321DEDB1ED007B7396 /* LSTextView.m in Sources */,
 				2AE94A541DEDB2CE007B7396 /* MASLayoutConstraint.m in Sources */,
 				2AE94A0F1DEDB1ED007B7396 /* AFURLRequestSerialization.m in Sources */,
+				2AC5F84F1E0CFB6B006BDB43 /* NTHttpRequest.m in Sources */,
 				2AE94A581DEDB2CE007B7396 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2AE94A331DEDB1ED007B7396 /* SGAlertUtil.m in Sources */,
 				2AE94A811DEDBE84007B7396 /* SBJsonStreamParserState.m in Sources */,
